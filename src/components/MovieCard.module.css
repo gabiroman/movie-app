@@ -1,0 +1,33 @@
+.movieCard{
+    color: white;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.movieImage{
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.movieImage:hover{
+    border: 5px solid rgb(13, 190, 13);
+    filter: grayscale(50%);
+}
+
+.title{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.title:hover{
+    color: gray;
+}
+
+@media (max-width: 560px){
+    .movieImage{
+        width: 80%;
+        height: auto;
+    }
+}

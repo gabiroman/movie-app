@@ -1,0 +1,36 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col {
+  max-width: 400px;
+  margin: 0 15px 0 15px;
+}
+
+.imgMovie {
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+.genreMovie{
+    margin: 0 8px 0 0;
+    background-color: rgb(109, 109, 109);
+    border-radius: 5px;
+    color: rgb(211, 211, 211);
+    padding: 2px;
+    font-size: 0.8rem;
+    display: inline;
+}
+
+.genreMovie:hover{
+    background-color: rgb(211, 211, 211);
+    color: rgb(109, 109, 109);
+}
+
+.movieDescription{
+    font-weight: 100;
+}
